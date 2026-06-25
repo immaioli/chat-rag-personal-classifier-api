@@ -70,11 +70,13 @@ npm run dev
 
 ## 📖 API Reference
 
+**Production URL:** `https://api.maioli.dev.br/chat-rag-personal-classifier-api`
+
 ### Classify Text
 
 Classifies an incoming message and returns a contextual response.
 
-**Endpoint:** `POST /api/classify`
+**Endpoint:** `POST /chat-rag-personal-classifier-api/classify`
 
 **Headers:**
 
