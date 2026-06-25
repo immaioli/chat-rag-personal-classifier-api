@@ -4,6 +4,6 @@ import { ClassifierController } from '../controllers/classifierController'
 const router = Router()
 const classifierController = new ClassifierController()
 
-router.post('/classify', classifierController.classify)
+router.post('/', classifierController.classify)
 
 export default router

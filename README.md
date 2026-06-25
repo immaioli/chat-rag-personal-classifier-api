@@ -76,7 +76,7 @@ npm run dev
 
 Classifies an incoming message and returns a contextual response.
 
-**Endpoint:** `POST /chat-rag-personal-classifier-api/classify`
+**Endpoint:** `POST /chat-rag-personal-classifier-api`
 
 **Headers:**
 
