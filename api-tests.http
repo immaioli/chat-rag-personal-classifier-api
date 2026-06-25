@@ -1,0 +1,26 @@
+### Test Skills Category
+POST http://localhost:3000/api/classify
+Content-Type: application/json
+
+{
+  "text": "What are your skills?",
+  "locale": "en-US"
+}
+
+### Test Summary Category
+POST http://localhost:3000/api/classify
+Content-Type: application/json
+
+{
+  "text": "Give me a summary of your profile.",
+  "locale": "en-US"
+}
+
+### Test Invalid Language Error
+POST http://localhost:3000/api/classify
+Content-Type: application/json
+
+{
+  "text": "Hello world",
+  "locale": "invalid-lang"
+}
