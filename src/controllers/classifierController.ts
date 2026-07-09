@@ -16,7 +16,8 @@ export class ClassifierController {
       return response.status(200).json(result)
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : 'Unknown error'
-      return response.status(500).json({ error: errorMessage })
+      console.error('Classification Error:', error)
+      return response.status(500).json({ error: 'Internal Server Error', details: errorMessage })
     }
   }
 }
