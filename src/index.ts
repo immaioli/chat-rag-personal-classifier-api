@@ -11,6 +11,10 @@ app.use(express.json())
 
 app.use('/chat-rag-personal-classifier-api', classifierRoutes)
 
+// HEALTH CHECK ROUTE TO PREVENT RENDER SLEEP
+app.get('/ping', (req, res) => {
+  res.status(200).json({ status: 'awake' })
+})
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`)
 })
