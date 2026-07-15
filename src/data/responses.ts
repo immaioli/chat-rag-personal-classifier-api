@@ -45,11 +45,11 @@ export const responses = {
       'A comunicação técnica e interpessoal em três idiomas é parte do meu perfil. Domino o Português e o Espanhol de forma nativa e fluente. Meu nível de Inglês (B2) me proporciona total autonomia para participar de entrevistas internacionais, redigir documentações de arquitetura, interagir com clientes estrangeiros e consumir os materiais mais recentes sobre Inteligência Artificial e desenvolvimento de software.'
     ],
     resume: [
-      'Aqui está o link para baixar meu currículo atualizado: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Você pode fazer o download do meu CV diretamente por este link do Google Drive: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Acesse meu currículo completo em formato PDF através deste link: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Baixe meu currículo atualizado clicando aqui: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Meu currículo está disponível para download neste link: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing'
+      'Aqui estão os links para baixar meu currículo e minha carta de apresentação atualizados:\n\n[Currículo](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Apresentação](https://drive.google.com/file/d/1txu_xuIIT_G-R6YMH0PYEb2irpsJUvt5/view?usp=sharing)',
+      'Você pode acessar meu CV e minha carta de apresentação diretamente por estes links do Google Drive:\n\n[Currículo](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Apresentação](https://drive.google.com/file/d/1txu_xuIIT_G-R6YMH0PYEb2irpsJUvt5/view?usp=sharing)',
+      'Acesse meu currículo completo e carta de apresentação em formato PDF através destes links:\n\n[Currículo](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Apresentação](https://drive.google.com/file/d/1txu_xuIIT_G-R6YMH0PYEb2irpsJUvt5/view?usp=sharing)',
+      'Baixe meu currículo e carta de apresentação atualizados clicando aqui:\n\n[Currículo](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Apresentação](https://drive.google.com/file/d/1txu_xuIIT_G-R6YMH0PYEb2irpsJUvt5/view?usp=sharing)',
+      'Meu currículo e minha carta de apresentação estão disponíveis para visualização ou download nestes links:\n\n[Currículo](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Apresentação](https://drive.google.com/file/d/1txu_xuIIT_G-R6YMH0PYEb2irpsJUvt5/view?usp=sharing)'
     ],
     contact: [
       'A melhor forma de entrar em contato comigo para discutirmos oportunidades, arquitetura de software ou projetos é através do meu LinkedIn (linkedin.com/in/immaioli) ou pelo WhatsApp (+55 44 9 9918 8624). Caso queira acompanhar meu trabalho e projetos, você pode seguir o meu perfil no GitHub (github.com/immaioli) ou explorar os links disponíveis no meu site profissional maioli.dev.',
@@ -110,11 +110,11 @@ export const responses = {
       'Technical and interpersonal communication in three languages is part of my profile. I master Portuguese and Spanish natively and fluently. My English level (B2) gives me total autonomy to participate in international interviews, write architecture documentation, interact with foreign clients, and consume the latest materials on Artificial Intelligence and software development.'
     ],
     resume: [
-      'Here is the link to download my updated resume: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'You can download my CV directly from this Google Drive link: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Access my full resume in PDF format through this link: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Download my updated resume by clicking here: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'My resume is available for download at this link: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing'
+      'Here are the links to download my updated resume and cover letter:\n\n[Resume](https://drive.google.com/file/d/1grrSDvMMKtUpnkyblICRrQmg71vvMiKA/view?usp=sharing)\n[Cover Letter](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)',
+      'You can download my CV and cover letter directly from these Google Drive links:\n\n[Resume](https://drive.google.com/file/d/1grrSDvMMKtUpnkyblICRrQmg71vvMiKA/view?usp=sharing)\n[Cover Letter](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)',
+      'Access my full resume and cover letter in PDF format through these links:\n\n[Resume](https://drive.google.com/file/d/1grrSDvMMKtUpnkyblICRrQmg71vvMiKA/view?usp=sharing)\n[Cover Letter](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)',
+      'Download my updated resume and cover letter by clicking here:\n\n[Resume](https://drive.google.com/file/d/1grrSDvMMKtUpnkyblICRrQmg71vvMiKA/view?usp=sharing)\n[Cover Letter](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)',
+      'My resume and cover letter are available for download at these links:\n\n[Resume](https://drive.google.com/file/d/1grrSDvMMKtUpnkyblICRrQmg71vvMiKA/view?usp=sharing)\n[Cover Letter](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)'
     ],
     contact: [
       'The best way to get in touch with me to discuss opportunities, software architecture, or projects is through my LinkedIn (linkedin.com/in/immaioli) or WhatsApp (+55 44 9 9918 8624). If you would like to follow my work and projects, you can follow my GitHub profile (github.com/immaioli) or explore the links available on my professional website maioli.dev.',
@@ -175,11 +175,11 @@ export const responses = {
       'La comunicación técnica e interpersonal en tres idiomas es parte de mi perfil. Domino el portugués y el español de forma nativa y fluida. Mi nivel de inglés (B2) me proporciona total autonomía para participar en entrevistas internacionales, redactar documentación de arquitectura, interactuar con clientes extranjeros y consumir los materiales más recientes sobre Inteligencia Artificial y desarrollo de software.'
     ],
     resume: [
-      'Aquí tienes el enlace para descargar mi currículum actualizado: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Puedes descargar mi CV directamente desde este enlace de Google Drive: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Accede a mi currículum completo en formato PDF a través de este enlace: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Descarga mi currículum actualizado haciendo clic aquí: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing',
-      'Mi currículum está disponible para descargar en este enlace: https://drive.google.com/drive/folders/1sN0AM6SGGKPRf_bQ-Bvac642oYzQhdx2?usp=sharing'
+      'Aquí tienes los enlaces para descargar mi currículum actualizado y mi carta de presentación:\n\n[Currículum](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Presentación](https://drive.google.com/file/d/1qsowP-iTdxOVS_7w-LDxl_cgCvFKaOmS/view?usp=sharing)',
+      'Puedes descargar mi CV y carta de presentación directamente desde estos enlaces de Google Drive:\n\n[Currículum](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Presentación](https://drive.google.com/file/d/1qsowP-iTdxOVS_7w-LDxl_cgCvFKaOmS/view?usp=sharing)',
+      'Accede a mi currículum completo y carta de presentación en formato PDF a través de estos enlaces:\n\n[Currículum](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Presentación](https://drive.google.com/file/d/1qsowP-iTdxOVS_7w-LDxl_cgCvFKaOmS/view?usp=sharing)',
+      'Descarga mi currículum y carta de presentación actualizados haciendo clic aquí:\n\n[Currículum](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Presentación](https://drive.google.com/file/d/1qsowP-iTdxOVS_7w-LDxl_cgCvFKaOmS/view?usp=sharing)',
+      'Mi currículum y carta de presentación están disponibles para descargar en estos enlaces:\n\n[Currículum](https://drive.google.com/file/d/1SM3-1ot26Ob1SKCqFc2CT3mocLIu9BND/view?usp=sharing)\n[Carta de Presentación](https://drive.google.com/file/d/1qsowP-iTdxOVS_7w-LDxl_cgCvFKaOmS/view?usp=sharing)'
     ],
     contact: [
       'La mejor manera de ponerse en contacto conmigo para discutir oportunidades, arquitectura de software o proyectos es a través de mi LinkedIn (linkedin.com/in/immaioli) o por WhatsApp (+55 44 9 9918 8624). Si deseas acompañar mi trabajo y proyectos, puedes seguir mi perfil en GitHub (github.com/immaioli) o explorar los enlaces disponibles en mi sitio web profesional maioli.dev.',
