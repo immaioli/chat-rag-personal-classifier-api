@@ -28,6 +28,36 @@ A high-performance, lightweight Node.js and TypeScript API designed to classify 
 * **Containerization**: Docker & Docker Compose
 * **Architecture Pattern**: Controller-Service-Router layers
 
+### 🏗️ Enterprise Architecture (C4 Model)
+
+This service acts as an ultra-fast, resilient fallback layer when external LLMs are unavailable, keeping the portfolio responsive at all times.
+
+```mermaid
+graph LR
+    classDef core fill:#fed7aa,stroke:#ea580c,stroke-width:2px,rx:10,ry:10,color:#000;
+    classDef external fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,rx:15,ry:15,color:#000;
+    classDef action fill:#dcfce7,stroke:#16a34a,stroke-width:2px,rx:15,ry:15,color:#000;
+
+    subgraph "Fallback API Flow (classifier-api)"
+        direction LR
+        
+        MainApp["🚀 Next.js App<br/>(Fallback Trigger)"]:::external
+        
+        Classifier["🧠 Node.js Classifier<br/>(Express API)"]:::core
+        
+        MainApp -- "① LLM Failed/Timeout" --> Classifier
+        
+        Data[("Static Intent Data<br/>(Memory)")]:::external
+        
+        Classifier -- "② Match Keywords" --> Data
+        Data -- "③ Return Objective Response" --> Classifier
+        Classifier -- "④ JSON Fallback" --> MainApp
+        
+        GitHub["⚙️ GitHub Actions<br/>(Keep-Alive Cron)"]:::action
+        GitHub -- "⑤ Ping /ping every 10m" --> Classifier
+    end
+```
+
 ---
 
 ## 📦 Getting Started
