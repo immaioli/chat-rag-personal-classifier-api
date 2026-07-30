@@ -32,6 +32,10 @@ Uma API leve e de alta performance em Node.js e TypeScript projetada para classi
 
 Este serviço atua como uma camada de fallback ultra-rápida e resiliente quando os LLMs externos estão indisponíveis, mantendo o portfólio responsivo em todos os momentos.
 
+**Design for Resilience & FinOps:** Este serviço atua como uma rede de segurança (fallback) contra quedas da API de LLM (HTTP 429) e estouro de limite de tokens, garantindo 'zero-downtime' e uma experiência ininterrupta. Ao servir respostas NLG pré-processadas, ele controla rigorosamente os custos e garante alta disponibilidade, mesmo sob picos de carga inesperados.
+
+> **Nota de Roadmap:** No futuro (quando o chat livre for ativado no lado do cliente), esta API evoluirá para atuar como um **Intent Router**. Ela filtrará requisições recebidas para decidir de forma inteligente se aciona uma busca vetorial cara (True RAG) ou se serve uma resposta rápida e estática (NLG), otimizando tanto a latência quanto os recursos financeiros.
+
 ```mermaid
 graph LR
     classDef core fill:#fed7aa,stroke:#ea580c,stroke-width:2px,rx:10,ry:10,color:#000;
