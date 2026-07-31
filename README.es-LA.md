@@ -28,6 +28,11 @@ Una API ligera y de alto rendimiento en Node.js y TypeScript diseñada para clas
 * **Contenedores**: Docker & Docker Compose
 * **Patrón de Arquitectura**: Capas Controller-Service-Router
 
+### ⚡ Prevención de Cold Start & CI/CD
+
+Como parte de una estrategia optimizada de FinOps (control de costos), esta aplicación se implementa en instancias serverless/efímeras que hibernan (scale to zero) durante períodos de inactividad. Aunque es financieramente eficiente, esto introduce la latencia de 'Cold Start' en la primera solicitud.
+Para eludir esta limitación y garantizar una Experiencia de Usuario (UX) inmediata y fluida, se ha diseñado un pipeline automatizado de CI/CD utilizando GitHub Actions (Cron Jobs). Este sistema orquesta solicitudes de 'ping' dirigidas a los endpoints cada 10 minutos, manteniendo las instancias 'cálidas' y eludiendo el tiempo de espera de inactividad del proveedor. Este enfoque demuestra un dominio práctico sobre las limitaciones de la infraestructura en la nube a través de la automatización dirigida.
+
 ### 🏗️ Arquitectura Empresarial (Modelo C4)
 
 Este servicio actúa como una capa de fallback ultrarrápida y resiliente cuando los LLMs externos no están disponibles, manteniendo el portafolio receptivo en todo momento.
