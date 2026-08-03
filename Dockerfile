@@ -13,8 +13,11 @@ RUN npm install
 # Copy all project files
 COPY . .
 
+# Build TypeScript to Javascript
+RUN npm run build
+
 # Expose API port
 EXPOSE 3000
 
-# Start application in development mode with auto-reload
-CMD ["npm", "run", "dev"]
+# Start application in production mode
+CMD ["npm", "run", "start"]
