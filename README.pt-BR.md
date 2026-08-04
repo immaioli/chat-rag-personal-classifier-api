@@ -109,8 +109,6 @@ npm run dev
 
 ## 📖 Referência da API
 
-**URL de Produção:** `https://api.maioli.dev.br/chat-rag-personal-classifier-api`
-
 ### Classificar Texto
 
 Classifica uma mensagem de entrada e retorna uma resposta contextualizada.
