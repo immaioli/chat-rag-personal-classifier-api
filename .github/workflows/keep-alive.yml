@@ -2,7 +2,7 @@ name: Keep API Alive
 
 on:
   schedule:
-    # Runs every 14 minutes between 08:00 and 17:58 UTC to prevent Render from sleeping
+    # Runs every 14 minutes between 08:00 and 17:58 UTC to prevent Railway from sleeping
     - cron: '*/14 8-17 * * *'
   workflow_dispatch: # Allows manual execution from the Actions tab
 
